@@ -1,16 +1,12 @@
-import { StatusBar } from "expo-status-bar";
 import {
   StyleSheet,
-  Text,
-  TextInput,
   View,
-  Modal,
   SafeAreaView,
 } from "react-native";
 import { useState } from "react";
-import Start from "./screencomponents/Start";
-import Comfirm from "./screencomponents/Comfirm";
-import Finish from "./screencomponents/Finish";
+import Start from "./screen/Start";
+import Comfirm from "./screen/Comfirm";
+import Finish from "./screen/Finish";
 import { LinearGradient } from "expo-linear-gradient";
 
 export default App = () => {
