@@ -1,5 +1,3 @@
-import { StyleSheet } from 'react-native'
-import React from 'react'
 
 const colors = {
     grey: '#808080',
